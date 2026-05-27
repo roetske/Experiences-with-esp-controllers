@@ -1,6 +1,6 @@
 # Experiences-with-esp-controllers
 # purpose share experiences 
-# power issues
+# 1)power issues
 Destroyed esp32? Backcurrent due to voltage difference powersupplies.<br />
 
 Using the usb connection and external power 5v  together can destroy your esp32!!<br />
@@ -17,7 +17,7 @@ Another solution is ideal diode circuit in series with power this prevents backc
 The ideal diode is a mosfet module that you put in series at output power (drop is max 0.05v).  <br />
 You can order them for up to 30 A . Appearantly used widely for solarpanels also.<br />
 
-# freezing after powerup esp module<br />
+# 2)freezing after powerup esp module<br />
 
 Appearantly when the powerup of your esp is to slow it can freeze. <br />
 Pushing reset button helps each time. But no soft will resolve this issue.<br />
