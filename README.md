@@ -1,11 +1,11 @@
 # Experiences-with-esp-controllers
 # purpose share experiences 
 # 1)power issues
-Destroyed esp32? Backcurrent due to voltage difference powersupplies.<br />
+Destroyed esp32? Backcurrent due to voltage difference powersupplies 5v .<br />
 
 Using the usb connection and external power 5v  together can destroy your esp32!!<br />
 
-When there is a voltage difference between the power 5v usb and external power ,current will flow to the lowest V power. 
+When there is a voltage difference between the power 5v usb and external power ,current will flow to the lowest 5V power. 
 
 Sadly destroyed regulator on nodemcu on one and then completely ruined another one.
 
